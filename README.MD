@@ -19,6 +19,13 @@ Conway's Game of Life is a cellular automaton devised by the British mathematici
 1. Clone this repository.
 2. Compile the code with `g++ main.cpp -lraylib -O2 && ./a.out`.
 
+Or use the provided CMakeLists.txt file to build the project:
+1. Clone this repository.
+2. Create a build directory: `mkdir build && cd build`.
+3. Generate the build files: `cmake ..`.
+4. Build the project: `make`.
+5. Run the executable: `./conway`.
+
 ## Controls
 
 - Left Mouse Button: Toggle cell alive.
